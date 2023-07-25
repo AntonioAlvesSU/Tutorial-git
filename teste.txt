@@ -43,3 +43,15 @@ git checkout -b "teste_a"
 para enviar novas modificações vc usará:
 git push com algumas modificações:
 git push --set-upstream origin teste_a
+mudando de Branch:
+git checkout main
+
+listando os branchs:
+git branch
+
+unindo os branchs em um de forma local:
+git merge teste
+
+sincronizar o repozitorio remoto com local usando:
+git pull
+-------/////----
