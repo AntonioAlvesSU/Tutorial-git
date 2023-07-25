@@ -1,0 +1,11 @@
+mudando de Branch:
+git checkout main
+
+listando os branchs:
+git branch
+
+unindo os branchs em um de forma local:
+git merge teste
+
+sincronizar o repozitorio remoto com local usando:
+git pull
