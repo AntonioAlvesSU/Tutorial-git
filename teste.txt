@@ -1,1 +1,45 @@
 testes para git
+AntonioAlvesSU
+suegut@2110
+https://pedrohjmartins.medium.com/instalando-visual-studio-code-9cedfbe688d2
+git config --global user.name "AntonioAlvesSU"
+git config --global user.email "aalves_su@hotmail.com"
+git config --global core.editor "code --await"
+
+verificar suas configurações:
+
+git config --global user.name 
+git config --global user.email 
+git config --global core.editor 
+
+comandos básicos git:
+git init
+git status
+git add .
+Save point:
+git commit -a -m "Criação do arquivo teste" 
+
+Vá ao site do git hub na tua conta e crie um repositório
+Após cria-lo ou fazer um link do repositorio local para o repositorio da nuvem do git:
+
+…or create a new repository on the command line
+echo "# Tutorial-git" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AntonioAlvesSU/Tutorial-git.git
+git push -u origin main
+
+or
+or push an existing repository from the command line
+git remote add origin https://github.com/AntonioAlvesSU/Tutorial-git.git
+git branch -M main
+git push -u origin main
+
+Organizando os branchs e va nomeando para que não misture os codigos:
+
+git checkout -b "teste_a"
+para enviar novas modificações vc usará:
+git push com algumas modificações:
+git push --set-upstream origin teste_a
