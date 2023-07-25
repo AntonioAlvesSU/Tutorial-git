@@ -54,4 +54,8 @@ git merge teste
 
 sincronizar o repozitorio remoto com local usando:
 git pull
+
+log do git:
+git log
+git log --online
 -------/////----
